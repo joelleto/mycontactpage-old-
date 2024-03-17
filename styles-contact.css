@@ -74,17 +74,20 @@ html, body {
 /*----this is my center----*/ 
 
 .center {
-    width: 800px;
+    width: 40%;  /*---this is for responsiveness---*/
+	min-width: 300px;  /*---this is for responsiveness---*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 206, 240, 0.716); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(245, 184, 227, 0.716); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px groove white;
 }
 /*----this is end of center-----*/
    
 #logo {
-    margin-bottom: 16px;
+    width: 70%;  /*---this is for responsiveness---*/
+	min-width: 300px; /*---this is for responsiveness---*/
+	margin-bottom: 16px;
 	border: 3px none;
 	text-align: center;
 }
@@ -120,7 +123,7 @@ p {
  nav{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 1.2em;
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 	border: solid beige;
 	border-width: 3px 0;
